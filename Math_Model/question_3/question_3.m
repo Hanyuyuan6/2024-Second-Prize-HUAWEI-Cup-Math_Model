@@ -212,7 +212,7 @@ toc; % 结束计时
 %% 结果可视化
 
 % 定义视频文件的完整路径
-videoFileName = 'C:\Users\hyy\Documents\MATLAB\A_2024_math_Moudle\A\question_3_基于粒子群优化';
+videoFileName = fullfile(pwd, 'question_3_基于粒子群优化.avi');
 
 % 创建 VideoWriter 对象
 v = VideoWriter(videoFileName, 'Uncompressed AVI'); % 你可以选择其他格式，如'MPEG-4'
